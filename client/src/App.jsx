@@ -2,7 +2,7 @@
 
 function App() {
   return (
-    <section>
+    <section className="bg-[#1A232E] relative h-screen py-6 sm:px-28 text-white overflow-hidden flex flex-col justify-between align-middle">
       {/* Header */}
       <div></div>
 
