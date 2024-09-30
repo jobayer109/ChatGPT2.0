@@ -5,7 +5,7 @@ import ChatInput from "./components/ChatInput";
 
 function App() {
   return (
-    <section className="bg-[#1A232E] relative h-screen py-6 sm:px-28 text-white overflow-hidden flex flex-col justify-between align-middle">
+    <section className="bg-[#1A232E] relative h-screen py-6 sm:px-16 px-12 text-white overflow-hidden flex flex-col justify-between align-middle">
       {/* ________________Gradients_____________________ */}
       <div className="gradient-01 z-0 absolute"></div>
       <div className="gradient-02 z-0 absolute"></div>
