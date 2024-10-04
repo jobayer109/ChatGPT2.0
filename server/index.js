@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 app.use(cors());
 
-// Route for handling text generation requests
+// Handling text generation requests
 app.post("/generate-text", async (req, res) => {
   try {
     const { prompt } = req.body;
