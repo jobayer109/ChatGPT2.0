@@ -11,7 +11,7 @@ const port = 5000;
 // Set OpenAI API key
 openai.apiKey = process.env.API_KEY;
 
-// Middleware
+// Middlewares
 app.use(bodyParser.json());
 app.use(express.json());
 app.use(cors());
