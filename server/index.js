@@ -39,6 +39,7 @@ app.post("/generate-text", async (req, res) => {
   }
 });
 
+// Server listening
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
 });
